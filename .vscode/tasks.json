@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Run Django Server",
+      "type": "shell",
+      "command": "python manage.py runserver",
+      "options": {
+        "cwd": "${workspaceFolder}\\Removing-Multiple-Votes-by-using-De-duplication-analysis-main"
+      },
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
